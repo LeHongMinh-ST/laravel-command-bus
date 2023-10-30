@@ -1,0 +1,29 @@
+{
+    "name": "minhlhst/command-bus",
+    "version": "1.0.0",
+    "description": "Simple Command Bus for Laravel framework from ST team",
+    "autoload": {
+        "psr-4": {
+            "MinhlhSt\\CommandBus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Le Hong Minh",
+            "email": "minhhl298.st@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "MinhlhSt\\CommandBus\\CommandBusServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "php": "^8.1",
+        "illuminate/container": "*",
+        "illuminate/support": "*",
+        "illuminate/routing": "*"
+    }
+}
